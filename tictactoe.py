@@ -1,2 +1,3 @@
 class Spieler:
-    __name = "unassigned"
+    öffentlich = "irgendein öffentliches Attribut der Klasse"
+    __geschützt = "irgendein privates Attribut der Klasse"

@@ -38,5 +38,6 @@ while hauptmenü:
             sys.exit()
         if ereignis.type == pygame.KEYUP and ereignis.key == pygame.K_SPACE:
             hauptmenü = False
-            spieler = tictactoe.Spieler
+            spieler1 = tictactoe.Spieler
+            spieler2 = tictactoe.Spieler
             pass #TODO hier neuen Screen initalisieren und tictactoe brett anzeigen
